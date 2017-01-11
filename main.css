@@ -124,6 +124,10 @@ body{
     padding-bottom: 140px;
 }
 
-#wb1, #wb2{
-    padding-top: 110px;
+#template{
+    padding-top: 25px;
+}
+
+#buttons{
+    padding-top: 45px;
 }
