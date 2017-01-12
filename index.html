@@ -78,13 +78,13 @@
     
             <div class="btn-group btn-group-justified" role="group" aria-label="" id="buttons">
                   <div class="btn-group" role="group" id="desktop">
-                    <button type="button" class="btn btn-default">Desktop</button>
+                    <button type="button" class="btn btn-default" onclick="setComputerSize( );">Desktop</button>
                   </div>
                   <div class="btn-group" role="group" id="phone">
-                    <button type="button" class="btn btn-default">Phone</button>
+                    <button type="button" class="btn btn-default" onclick="setPhoneSize ();">Phone</button>
                   </div>
                   <div class="btn-group" role="group" id="tablet">
-                    <button type="button" class="btn btn-default">Tablet</button>
+                    <button type="button" class="btn btn-default" onclick="setTabletSize ();">Tablet</button>
                   </div>
             </div>
     
@@ -101,7 +101,7 @@
     <script>
 	
 	$('#desktop').on('click', function() {
-        setComputerSize('#template');
+        setComputerSize('iframe');
 	});
 	$('#phone').on('click', function(){
         setPhoneSize();
